@@ -1,0 +1,15 @@
+git init
+git config --global user.name "Your Name"
+git config --global user.email "yournme@somemail.com"
+git config --list
+git add README.md
+#git add file1
+#git add dir/file2
+git status
+git status -s
+git commit -m new
+git remote add origin https://github.com/yourname/yourrepo.git
+git push -u origin master
+git status
+git log
+
