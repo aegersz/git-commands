@@ -7,10 +7,10 @@ git add *
 # git rm --cached file1
 git commit -m reason
 git diff
-git checkout master
+git checkout master (or main)
 git merge reason
 #git remote add origin https://github.com/yourname/yourrepo.git
-git push -u origin master
+git push -u origin master (or main)
 git status
 git log
 
